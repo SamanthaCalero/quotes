@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></link>
+    <title>Quote Gen</title>
+<style>
+body {
+  background-image: image("pinkflower.jpg");
+}
+h1 {
+  margin: 40px;
+  color: grey;
+  font-style: oblique;
+}
+.script {
+  font-size: 36px;
+}
+div {
+    
+    outline-style: dotted;
+    margin: 40px;
+    background-color: lightpink;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    text-align: justify;
+    letter-spacing: 3px;
+}
+.center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+button {
+  margin: 40px;
+}
+</style>
+
+</head>
+  <h1>Quote of the Day</h1>
+  <div id="quoteDisplay"></div>
+<!--  <div class="container"> -->
+
+  <!-- Quotes will display here -->
+
+  <button onclick="newQuote()" class="btn btn-primary">New Quote</button>
+  <script src="quotegenerator.js"></script>
+
+</body>
+</html>
