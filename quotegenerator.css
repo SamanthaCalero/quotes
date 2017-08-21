@@ -1,9 +1,6 @@
 html {
   font-size: 14px;
 }
-body{
- background: url(../img/tree-animated-gif-3.gif) 
-}
 
 @include media-breakpoint-up(sm) {
   html {
